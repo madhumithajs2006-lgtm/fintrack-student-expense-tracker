@@ -22,14 +22,9 @@ It helps students manage their income, expenses and savings efficiently.
 - Chart.js
 
 ## 📸 Screenshots
+## 📸 Screenshots
 
-Add screenshots inside the `screenshots` folder and update this section.
-
-Example:
-
-```md
-![Dashboard](screenshots/dashboard.png)
-```
+![FinTrack Dashboard](screenshots/final.png)
 
 ## 🎯 Purpose
 
