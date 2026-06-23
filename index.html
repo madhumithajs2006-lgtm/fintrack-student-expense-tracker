@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>FinTrack | Madhu Mitha</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💰 FinTrack</h1>
+<button id="themeBtn">
+
+🌙 Dark Mode
+
+</button>
+<h3 class="subtitle">
+Student Expense Tracker
+</h3>
+
+<p>
+Track your income, expenses and savings efficiently.
+</p>
+
+<div class="balance-card">
+
+<h2>Current Balance</h2>
+
+<h1 id="balance">₹0</h1>
+
+</div>
+<div class="summary-cards">
+
+<div class="summary income-card">
+
+<h3>💚 Income</h3>
+
+<h2 id="incomeTotal">₹0</h2>
+
+</div>
+
+<div class="summary expense-card">
+
+<h3>❤️ Expenses</h3>
+
+<h2 id="expenseTotal">₹0</h2>
+
+</div>
+
+</div>
+<div id="insightBox">
+
+🏆 Your spending insights will appear here
+
+</div>
+<div class="input-section">
+
+<input
+id="description"
+type="text"
+placeholder="Description">
+
+<input
+id="amount"
+type="number"
+placeholder="Amount">
+
+<select id="type">
+
+<option value="income">
+Income 💚
+</option>
+
+<option value="expense">
+Expense ❤️
+</option>
+
+</select>
+
+<select id="category">
+
+<option>Food 🍔</option>
+
+<option>Travel 🚌</option>
+
+<option>Shopping 🛍️</option>
+
+<option>Education 📚</option>
+
+<option>Entertainment 🎮</option>
+
+<option>Other 📝</option>
+
+</select>
+
+<button id="addBtn">
+
+Add Transaction
+
+</button>
+
+</div>
+<input
+id="searchInput"
+type="text"
+placeholder="🔍 Search transactions">
+<button id="exportBtn">
+
+📄 Export CSV
+
+</button>
+<h2>Transactions</h2>
+
+<ul id="transactionList"></ul>
+<h2>📊 Expense Analytics</h2>
+
+<div class="chart-container">
+
+<canvas id="expenseChart"></canvas>
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="script.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
